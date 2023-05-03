@@ -1,8 +1,8 @@
-Основан на функциях фильтрации, поиска и статистики заголовка столбца DataGrid, созданных в библиотеке Material Design XAML.
-Код не самый совершенный, он предназначен только для вашей справки и изучения.
+### Основан на функциях фильтрации, поиска и статистики заголовка столбца DataGrid, созданных в библиотеке Material Design XAML.
+### Код не самый совершенный, он предназначен только для вашей справки и изучения.
 
-Как использовать：
-App.xml 
+#### Как использовать：
+#### App.xml 
 
 ```C# 
 <Application.Resources>
@@ -20,24 +20,36 @@ App.xml
     </ResourceDictionary>
 </Application.Resources>
 ``` 
-View
+#### View
  ```C#   
  <Window . . .
        xmlns:FD="clr-namespace:FilterDataGrid;assembly=FilterDataGrid"
     <Grid>
- 
+                <FD:FilterDataGrid
+                    x:Name="DataGridControl1"
+                    AutoGenerateColumns="True"
+                    CanUserAddRows="False"
+                    FilterLanguage="Russian"
+                    FooterItems="{Binding footerList}"
+                    GridLinesVisibility="All"
+                    HeadersVisibility="All"
+                    IsReadOnly="True"
+                    ItemsSource="{Binding dvList, UpdateSourceTrigger=PropertyChanged}"
+                    ShowRowsCount="True" />
     </Grid>
 </Window>
 ```
-![image](https://user-images.githubusercontent.com/73624088/225265390-f9e90483-5a6e-402e-828a-fa8117407791.png)
 
-Контекстное меню после нажатия правой кнопки по заголовку столбца
+![image](https://user-images.githubusercontent.com/62784658/235885521-db6fe5db-89d4-4f99-a823-4a5c2d476e78.png)
 
-![image](https://user-images.githubusercontent.com/73624088/225265847-f24406f9-ef58-4990-88dc-c9d0ba52705e.png)
+
+###Контекстное меню после нажатия правой кнопки по заголовку столбца
+
+![image](https://user-images.githubusercontent.com/62784658/235885961-32bb89f4-64e0-4133-857a-d0f26cc1da6f.png)
 
 Поддержка глобального поиска（Ctrl+F）
 
-![image](https://user-images.githubusercontent.com/73624088/225266292-50c16732-48f5-4962-8233-56a334071589.png)
+![image](https://user-images.githubusercontent.com/62784658/235886930-abdd0273-ce5c-4bb7-b6d1-aaf320b79bed.png)
 
 Поддержка следующих языков
 
