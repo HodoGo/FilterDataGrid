@@ -43,15 +43,15 @@
 ![image](https://user-images.githubusercontent.com/62784658/235885521-db6fe5db-89d4-4f99-a823-4a5c2d476e78.png)
 
 
-###Контекстное меню после нажатия правой кнопки по заголовку столбца
+#### Контекстное меню после нажатия правой кнопки по заголовку столбца
 
 ![image](https://user-images.githubusercontent.com/62784658/235885961-32bb89f4-64e0-4133-857a-d0f26cc1da6f.png)
 
-Поддержка глобального поиска（Ctrl+F）
+#### Поддержка глобального поиска（Ctrl+F）
 
 ![image](https://user-images.githubusercontent.com/62784658/235886930-abdd0273-ce5c-4bb7-b6d1-aaf320b79bed.png)
 
-Поддержка следующих языков
+#### Поддержка следующих языков
 
 ![image](https://user-images.githubusercontent.com/73624088/225267641-91bd956f-8819-4e71-9395-4d0e134be6b8.png)
 
