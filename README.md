@@ -1,9 +1,10 @@
 Основан на функциях фильтрации, поиска и статистики заголовка столбца DataGrid, созданных в библиотеке Material Design XAML.
 Код не самый совершенный, он предназначен только для вашей справки и изучения.
 
-Как использовать：App.xml ResourceDictionary
+Как использовать：
+App.xml 
 
-  
+```C# 
 <Application.Resources>
    <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -18,15 +19,16 @@
             <!--  Other app resources here  -->
     </ResourceDictionary>
 </Application.Resources>
-   
-   
+``` 
+View
+ ```C#   
  <Window . . .
        xmlns:FD="clr-namespace:FilterDataGrid;assembly=FilterDataGrid"
     <Grid>
  
     </Grid>
 </Window>
-
+```
 ![image](https://user-images.githubusercontent.com/73624088/225265390-f9e90483-5a6e-402e-828a-fa8117407791.png)
 
 Контекстное меню после нажатия правой кнопки по заголовку столбца
